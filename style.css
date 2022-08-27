@@ -1,29 +1,28 @@
-body{
-    margin: 0;
-}
-.navbar{
-    background-color: rgb(102, 207, 242);
-    text-align: center;
-    padding: 15px;
-}
-span{
-    margin-left: 20px;
-}
-#mainimg{
-    height: 68%;
-    width: 100%;
-}
-.a1:link {
-    background-color:pink;
-    color: #11999E;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+body {
+  margin: 0;
 }
 
-.a1:hover,
-.a1:active {
-    background-color: rgb(53, 90, 255);
-    color: white;
+#mainimg {
+  width: 100%;
+  height: auto;
+  margin-top: 3.2%;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1% 2%;
+  text-align: center;
+}
+.a1 {
+  color: white;
+  text-decoration: none;
+  padding: 1% 2%;
+}
+
+.a1:hover {
+  background-color: red;
+}
+.topnav {
+  position: fixed;
+  width: 100%;
 }
