@@ -1,81 +1,48 @@
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contact Us</title>
-        <link rel="stylesheet" href="style.css">
-        <style>
-            form{
-                text-align: center;
-                /* border-style: solid;
-                border-collapse: collapse; */
-                margin:auto 300px auto 400px;
-                border-radius: 5px;
-                background-color: #f2f2f2;
-                padding: 20px;
-            }
-             
-            input, select {
-                width: 100%;
-                padding: 12px 20px;
-                margin: 8px 0;
-                display: inline-block;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                box-sizing: border-box;
-        }
-        textarea, select {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            display: inline-block;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-        input[type=submit] {
-            width: 100%;
-            background-color: #4CAF50;
-            color: white;
-            padding: 14px 20px;
-            margin: 8px 0;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact_style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <span id="home"><a class="a1" href="index.html">Home</a></span>
+      <span id="about"><a class="a1" href="about.html">About</a></span>
+      <span id="contact"><a class="a1" href="contact.html">Contact us</a></span>
+    </nav>
+    <h2 style="text-align: center">Contact Us</h2>
 
-        input[type=submit]:hover {
-             background-color: #45a049;
-        }
-
-        </style>
-    </head>
-    <body>
-        <nav class="navbar">
-            <span id="home"><a class="a1" href="index.html">Home</a></span>
-            <span id="about"><a class="a1" href="about.html">About</a></span>
-            <span id="contact"><a class="a1" href="contact.html">Contact us</a></span>
-        </nav>
-        <h2 style="text-align:center ;">Contact Us</h2>
-
-        <form action="">
-            <p>
-                <input type="text" name="Name" placeholder="Enter your name">
-            </p>
-            <p>
-                <input type="email" name="Email" placeholder="Enter your email">
-            </p>
-            <p>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your contact number">
-            </p>
-            <p>
-                <textarea name="tarea" id="ta" cols="20" rows="5"
-                    placeholder="Why you want to contact us"></textarea>
-            </p>
-            <p>
-                <input type="submit" name="submit" id="">
-            </p>
-        </form>
-    </body>
+    <form action="any.php" method="post">
+      <p>
+        <input type="text" name="Name" placeholder="Enter your name" />
+      </p>
+      <p>
+        <input type="email" name="Email" placeholder="Enter your email" />
+      </p>
+      <p>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+          placeholder="Enter your contact number"
+        />
+      </p>
+      <p>
+        <textarea
+          name="tarea"
+          id="ta"
+          cols="20"
+          rows="5"
+          placeholder="Why you want to contact us"
+        ></textarea>
+      </p>
+      <p>
+        <input type="submit" name="submit" id="" value="Submit" />
+      </p>
+    </form>
+  </body>
 </html>
